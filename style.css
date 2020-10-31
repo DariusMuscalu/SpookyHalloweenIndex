@@ -1,0 +1,175 @@
+body {
+    margin: 0px;
+    padding: 0px;
+ background: linear-gradient(#372248, #9198e5);
+}
+
+
+
+
+.navbar img{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    top: 0px;
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+
+
+.navbar h1{
+    position: absolute;
+    left: 180px;
+    top: 0px;
+    color: #F46036;
+    text-shadow: black 5px 0 10px;
+    font-size: 34px;
+}
+
+.navbar ul{
+    font-size: 20px;
+    text-align: right;
+    position: relative;
+    margin: 20px 20px;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+.navbar li {
+    text-decoration: none;
+    overflow: hidden;
+    display: inline;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 25px;
+    border: 3px solid #A7CAB1;
+    box-shadow: 5px 3px 5px #A7CAB1;
+    padding: 15px 60px;
+    margin: auto;
+    background-color: beige;
+}
+
+.navbar a{
+animation-name: rainbow;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        background-color: #7289da;
+    }
+    100% {
+        background-color: #F46036;
+        opacity: 0.5;
+    }
+}
+
+.navbar a:hover{
+    animation-name: hoverEffect;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
+
+    @keyframes hoverEffect {
+        0% {
+            background-color: white;
+        }
+        50% {
+            background-color: orange;
+        }
+        100% {
+            background-color: burlywood;
+        }
+    } 
+
+.class {
+background-image: url(./images/pexels-cottonbro-5435194.jpg);
+max-width: 100%;
+height: auto;
+background-size: auto;
+width: auto;
+margin: 0px;
+margin-top: 30px;
+border-top: 4px solid gray;
+border-bottom: 4px solid gray;
+position: relative;
+top: 20px;
+}
+
+.class h1{
+    text-align: center;
+padding: 300px 100px;
+font-size: 40px;
+color: #F46036;
+text-shadow: 1px 1px 2px #372248, 0 0 1em #372248, 0 0 0.2em #372248;
+}
+
+
+
+
+.class p {
+    text-align: center;
+    padding: 160px 100px;
+    font-size: 45px;
+    color: #F46036;
+    text-shadow: 1px 1px 2px red, 0 0 3em gray, 0 0 2em gray;
+}
+
+.mainSectionOfPhotos {
+    margin: 0px;
+    padding: 140px 40px;
+    color: #FC0;
+}
+
+.mainSectionOfPhotos h1 {
+    text-align: center;
+}
+
+.mainSectionOfPhotos img {
+    border: 5px solid white;
+
+}
+
+.right-img {
+    float: right;
+    position: absolute;
+    height: 600px;
+    width: 770px;
+}
+
+.secondSectionOfPhotos {
+    margin: 0px 350px;
+    padding: 430px 100px;
+   max-width: 100%;
+ background-image: url(./images/617teYDLXcL._AC_SL1000_.jpg);
+ text-align: center;
+ border: 4px solid gray;
+ border-radius: 40%;
+}
+
+
+footer {
+    background-color: #372248;
+    color: #F46036;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    text-align: center;
+   
+} 
+
+.contactLogos {
+    font-size: 40px;
+    
+}
+
+.contactLogos a{
+    text-decoration: none;
+    color: #7289da;
+}
